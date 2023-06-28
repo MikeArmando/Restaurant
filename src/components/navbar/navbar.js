@@ -6,9 +6,10 @@ export const Navbar = () => {
             <nav>
                 <h1>Marisco Bahia</h1>
                 <ul>
-                    <li>temp1</li>
-                    <li>temp2</li>
-                    <li>temp3</li>
+                    <li><a href=''>Home</a></li>
+                    <li><a href=''>Menu</a></li>
+                    <li><a href=''>Order</a></li>
+                    <li><a href=''>Contact</a></li>
                 </ul>
             </nav>
         </div>
