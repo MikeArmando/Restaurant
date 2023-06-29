@@ -1,15 +1,16 @@
 import './navbar.css'
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
         <div className='Navbar'>
             <nav>
-                <h1>Marisco Bahia</h1>
+                <h1><Link to="/">Mariscos Bahia</Link></h1>
                 <ul>
-                    <li><a href=''>Home</a></li>
-                    <li><a href=''>Menu</a></li>
-                    <li><a href=''>Order</a></li>
-                    <li><a href=''>Contact</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to=''>Menu</Link></li>
+                    <li><Link to=''>Contact</Link></li>
+                    <li><Link to=''>Reservations</Link></li>
                 </ul>
             </nav>
         </div>

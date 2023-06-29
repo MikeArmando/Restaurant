@@ -1,0 +1,94 @@
+.intro-box {
+    background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: inset 0 0 0 1000px rgba(3, 4, 7, 0.604);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro-box h1 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+/* About */
+
+.about-box {
+    height: 90vh;
+    display: grid;
+    align-items: center;
+}
+
+.about-box .about-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0rem 20rem;
+}
+
+.about-box img {
+    height: 32rem;
+}
+
+.about-text label {
+    color: rgb(42, 42, 42);
+}
+
+.about-text h2 {
+    color: #daa919;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.about-text p {
+    color: rgb(78, 78, 78);
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+/* Menu */
+
+.menu-box {
+    display: grid;
+    align-items: center;
+}
+
+.menu-box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6rem;
+}
+
+.menu-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: auto;
+    padding: 2rem 5rem;
+}
+
+.menu-img-box img {
+    height: 8rem;
+}
+
+.menu-img-box {
+    display: flex;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 1px 0px rgb(78, 78, 78);
+    border-radius: .3rem;
+    transition: all .3s;
+}
+
+.menu-img-box:hover {
+    background-color: #ffb623;
+}
