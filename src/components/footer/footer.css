@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(232, 232, 232);
+    height: 50vh;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-item-box {
+    max-width: 20rem;
+    min-height: 18rem;
+}
+
+.footer-item-box p {
+    font-size: .8rem;
+}
+
+.newsletter-btn-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-btn-box input {
+    width: 40%;
+    padding: .5rem 1rem;
+    margin: .5rem 0rem;
+}
+
+.newsletter-btn-box button {
+    background-color: #b39d5c;
+    color: rgb(232, 232, 232);
+    border: none;
+    cursor: pointer;
+    width: 51%;
+    padding: .6rem 1rem;
+    margin: .5rem 0rem;
+}

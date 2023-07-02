@@ -117,9 +117,10 @@
 
 .view-menu-box button {
     cursor: pointer;
-    padding: .7rem 2.5rem;
+    padding: 1rem 2.7rem;
+    border: none;
     text-transform: uppercase;
-    background-color: black;
+    background-color: #b39d5c;
     transition: all .3s;
 }
 
