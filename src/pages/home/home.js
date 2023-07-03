@@ -15,6 +15,7 @@ export const Home = () => {
           <div className='about-text'>
             <h2>Mariscos Bahia <br /> <label> Restaurant</label></h2>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth</p>
+            <button><a href='#!'>Learn More</a></button>
           </div>
         </div>
       </section>

@@ -54,6 +54,19 @@
     font-size: 1.1rem;
 }
 
+.about-text button {
+    cursor: pointer;
+    border: none;
+    margin: 1.5rem 0rem;
+    padding: 1rem 2.3rem;
+    background-color: #b39d5c;
+}
+
+.about-text button a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Menu */
 
 .menu-box {
@@ -130,4 +143,3 @@
 }
 
 /* Menu */
-

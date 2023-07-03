@@ -5,14 +5,14 @@ import { Home } from './pages/home/home'
 import { Menu } from './pages/menu/menu'
 import { Footer } from './components/footer/footer'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
 
       <><Navbar /></>
-      
-      <Routes path="/Mariscos-Bahia" element={Home}>
-        <Route exact path='/Mariscos-Bahia' element={<Home />} />
+
+      <Routes path="/Restaurant" element={Home}>
+        <Route exact path='/Restaurant' element={<Home />} />
         <Route path='/menu' element={Menu} />
       </Routes>
 
