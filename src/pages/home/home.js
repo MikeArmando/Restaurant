@@ -178,16 +178,14 @@ export const Home = () => {
       </section>
 
       <section className='reserv-box'>
-        <h2>Make a reservation</h2>
         <div className='reserv-center'>
+          <h2>Make a reservation</h2>
           <div className='reserv-contents'>
-            <input type='text' placeholder=''></input>
-            <label className='name1'>Nombre</label>
+            <input type='text' placeholder='First Name'></input>
             <input type='text' placeholder='Last Name'></input>
-            <label className='name2'>Nombre</label>
             <input type='text' placeholder='Phone'></input>
-            <input type="date" placeholder='Date'></input>
-            <input type="time" placeholder='Time'></input>
+            <input type="text" placeholder='Date'></input>
+            <input type="text" placeholder='Time'></input>
             <select id="Persons">
               <option value="2 Persons">2 Persons</option>
               <option value="3 Persons">3 Persons</option>
@@ -196,6 +194,7 @@ export const Home = () => {
               <option value="6 Persons">6 Persons</option>
             </select>
           </div>
+          <a href='#!'>Make a reservation</a>
         </div>
       </section>
 

@@ -310,7 +310,7 @@
 
 .reserv-box {
     background-image: url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
-    height: 80vh;
+    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -320,19 +320,22 @@
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 2rem 0;
 }
 
 .reserv-box h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 200;
+    margin: 2rem 0;
 }
 
 .reserv-center {
-    padding: 8rem 5rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -343,26 +346,37 @@
     align-items: center;
 }
 
+.reserv-contents input::placeholder {
+    color: rgb(242, 242, 242);
+}
+
 .reserv-contents input, .reserv-contents select {
+    font-size: .8rem;
     background: none;
+    color: rgb(242, 242, 242);
+    border: 2px solid #caae59;
+    margin: 1rem 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.reserv-contents select option {
+    color: black;
+}
+
+.reserv-center a {
+    font-size: .8rem;
+    background-color: #bb944c;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #bb944c;
+    color: rgb(242, 242, 242);
+    padding: .8rem 2rem;
+    margin: 1rem 0rem;
+    transition: all .3s;
+}
+
+.reserv-center a:hover {
+    background-color: transparent;
+    border: 1px solid #bb944c;
     color: white;
-    border: none;
-    margin: .5rem 1rem;
-    padding: .5rem;
-
-}
-
-.reserv-contents .name1 {
-    font-size: .8rem;
-    position: absolute;
-    top: 1rem;
-    left: 1.5rem;
-}
-
-
-.reserv-contents .name2 {
-    font-size: .8rem;
-    position: absolute;
-    top: 1rem;
-    right: 8.8rem;
 }
