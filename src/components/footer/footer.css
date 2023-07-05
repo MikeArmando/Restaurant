@@ -43,3 +43,34 @@ footer {
     padding: .6rem 1rem;
     margin: .5rem 0rem;
 }
+
+@media (max-width: 1400px) {
+
+    footer {
+        height: auto;
+    }
+
+    .footer-box {
+        flex-direction: column;
+        margin: 4rem 0;
+    }
+
+    .footer-item-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-btn-box {
+        flex-direction: row;
+    }
+
+    .newsletter-btn-box input {
+        margin: .5rem 1rem;
+    }
+
+    .newsletter-btn-box button {
+        margin: .5rem 1rem;
+    }
+}

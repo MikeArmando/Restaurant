@@ -9,8 +9,9 @@ export const Navbar = () => {
                 <ul>
                     <li><Link to='/Restaurant'>Home</Link></li>
                     <li><Link to='/menu'>Menu</Link></li>
+                    <li><Link to=''>About</Link></li>
                     <li><Link to=''>Contact</Link></li>
-                    <li><Link to=''>Reservations</Link></li>
+                    <li><Link to='' className='reserv'>Reservations</Link></li>
                 </ul>
             </nav>
         </div>
