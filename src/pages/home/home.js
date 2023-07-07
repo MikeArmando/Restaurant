@@ -181,11 +181,15 @@ export const Home = () => {
         <div className='reserv-center'>
           <h2>Make a reservation</h2>
           <div className='reserv-contents'>
-            <input type='text' placeholder='First Name'></input>
-            <input type='text' placeholder='Last Name'></input>
-            <input type='text' placeholder='Phone'></input>
+            <input type='text' placeholder='Full Name'></input>
             <input type="text" placeholder='Date'></input>
-            <input type="text" placeholder='Time'></input>
+            <select id="Time">
+              <option value="2 Persons">05:00 PM</option>
+              <option value="3 Persons">06:00 PM</option>
+              <option value="4 Persons">10:00 PM</option>
+              <option value="5 Persons">11:00 PM</option>
+              <option value="6 Persons">12:00 PM</option>
+            </select>
             <select id="Persons">
               <option value="2 Persons">2 Persons</option>
               <option value="3 Persons">3 Persons</option>

@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 0 1rem;
 }
 
 .intro-box h1 {
@@ -84,7 +85,7 @@
         align-items: center;
         gap: 5rem;
         margin: 0rem auto;
-        padding: 6rem 10rem;
+        padding: 6rem 3rem;
     }
 
     .about-text {
@@ -98,6 +99,27 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .about-box .about-box-center {
+        padding: 6rem 3rem;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-img-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-box img {
+        height: 25rem;
     }
 }
 
@@ -191,6 +213,20 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         margin: 0rem auto;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .special-img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .special-img-box img {
+        height: 15rem;
     }
 }
 
@@ -300,17 +336,19 @@
     }
 }
 
+@media (max-width: 900px) {
+    .menu-center {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin: 0 auto;
+    }
+}
 
-
-
-
-
-
-
+/* Reservation */
 
 .reserv-box {
     background-image: url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
-    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -320,7 +358,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 2rem 0;
+    padding: 6rem 0;
 }
 
 .reserv-box h2 {
@@ -347,10 +385,12 @@
 }
 
 .reserv-contents input::placeholder {
+    font-family: 'Montserrat', sans-serif;
     color: rgb(242, 242, 242);
 }
 
 .reserv-contents input, .reserv-contents select {
+    font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     background: none;
     color: rgb(242, 242, 242);
@@ -365,10 +405,10 @@
 
 .reserv-center a {
     font-size: .8rem;
-    background-color: #bb944c;
+    background-color: #948045;
     text-align: center;
     text-decoration: none;
-    border: 1px solid #bb944c;
+    border: 1px solid #948045;
     color: rgb(242, 242, 242);
     padding: .8rem 2rem;
     margin: 1rem 0rem;
@@ -379,4 +419,12 @@
     background-color: transparent;
     border: 1px solid #bb944c;
     color: white;
+}
+
+
+@media (max-width: 600px) {
+
+    .reserv-contents {
+        grid-template-columns: 1fr;
+    }
 }

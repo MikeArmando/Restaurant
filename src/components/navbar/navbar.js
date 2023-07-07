@@ -13,7 +13,13 @@ export const Navbar = () => {
                     <li><Link to=''>Contact</Link></li>
                     <li><Link to='' className='reserv'>Reservations</Link></li>
                 </ul>
+                <a href="" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
             </nav>
         </div>
     )
 }
+
