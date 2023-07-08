@@ -345,14 +345,76 @@
     }
 }
 
+
+
+
+
+
+
+
+.reviews-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.reviews-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.reviews-row {
+    display: grid;
+    gap: 1rem;
+    max-width: 80rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviews-items {
+    border: 2px solid rgb(206, 206, 206);
+    padding: 1rem;
+}
+
+.reviews-items img {
+    height: 2rem;
+}
+
+.rev-span {
+    grid-row: span 2;
+}
+
+.rev-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+    .reviews-row {
+        grid-template-columns: 1fr;
+        margin: 0 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Reservation */
 
 .reserv-box {
-    background-image: url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1599458448510-59aecaea4752?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(3, 4, 7, 0.604);
+    box-shadow: inset 0 0 0 1000px rgba(3, 4, 7, 0.722);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,12 +424,12 @@
 }
 
 .reserv-box h2 {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 200;
-    margin: 2rem 0;
 }
 
 .reserv-center {
@@ -405,10 +467,10 @@
 
 .reserv-center a {
     font-size: .8rem;
-    background-color: #948045;
+    background-color: #ad9651;
     text-align: center;
     text-decoration: none;
-    border: 1px solid #948045;
+    border: 1px solid #ad9651;
     color: rgb(242, 242, 242);
     padding: .8rem 2rem;
     margin: 1rem 0rem;
@@ -420,7 +482,6 @@
     border: 1px solid #bb944c;
     color: white;
 }
-
 
 @media (max-width: 600px) {
 
