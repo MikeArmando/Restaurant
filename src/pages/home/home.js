@@ -1,4 +1,5 @@
 import './home.css'
+import { Link } from 'react-router-dom';
 import star from '../../assets/img/star.png'
 
 export const Home = () => {
@@ -173,7 +174,7 @@ export const Home = () => {
           </div>
         </div>
         <div className='view-menu-box'>
-          <a href='#!'>View Menu</a>
+          <Link to='/menu'>View Menu</Link>
         </div>
       </section>
 
@@ -188,7 +189,7 @@ export const Home = () => {
           </div>
           <div className='reviews-items rev-span'>
             <img href="#!" src={star}></img><img href="#!" src={star}></img><img href="#!" src={star}></img><img href="#!" src={star}></img><img href="#!" src={star}></img>
-            <p className='rev-text'>Delicious! It was delicious. Pure flavours, in traditional tapas. I liked that there was not a very big menu, but what was on was delicious. Everything. We were with my children, who also liked everything (10-13-16). And for the youngest one, they made a special ice cream dessert. Delicious! Best tapas in town At this moment by far the best tapas in town! I have ordered here before during the lockdown and now I eat here in the restaurant itself for the first time. It is just super tasty. Quality is excellent! Staff is friendly, some speak English, no problem for us, but what is often the case in tapas restaurants that you have a well-filled wallet to take along. That is not only here, but you do get value for money! Everything is equally delicious!</p>
+            <p className='rev-text'>Delicious! It was delicious. Pure flavours, in traditional tapas. I liked that there was not a very big menu, but what was on was delicious. Everything. We were with my children, who also liked everything (10-13-16). And for the youngest one, they made a special ice cream dessert. Delicious! Best tapas in town At this moment by far the best tapas in town! I have ordered here before during the lockdown and now I eat here in the restaurant itself for the first time. Quality is excellent! Staff is friendly, some speak English, no problem for us, but what is often the case in tapas restaurants that you have a well-filled wallet to take along. Everything is equally delicious! Cosiness, quality and top service A fantastic place to eat tapas. Very nice and cosy restaurant with very nice service and top food. Enjoyed all the tapas. Many distinctive dishes. Not often eaten such good tapas. Also tasted some unique beers here. Definitely a must for everyone who is in Maastricht.</p>
             <p className='rev-name'>Daniel</p>
             <p className='rev-google'>Google</p>
           </div>
@@ -230,7 +231,7 @@ export const Home = () => {
           <h2>Make a reservation</h2>
           <div className='reserv-contents'>
             <input type='text' placeholder='Full Name'></input>
-            <input type="text" placeholder='Date'></input>
+            <input type="date" placeholder='Date'></input>
             <select id="Time">
               <option value="2 Persons">05:00 PM</option>
               <option value="3 Persons">06:00 PM</option>

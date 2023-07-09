@@ -238,10 +238,11 @@
 }
 
 .menu-box h2 {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding-top: 4rem;
 }
 
@@ -288,14 +289,10 @@
     transition: all .3s;
 }
 
-.menu-text-box:hover p {
-    color: #e1bb4c;
-}
-
 .menu-text-box a {
     margin-top: 1rem;
     text-decoration: none;
-    color: #b39d5c;
+    color: #caae59;
 }
 
 .menu-text-box a:hover {

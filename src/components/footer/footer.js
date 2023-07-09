@@ -13,7 +13,8 @@ export const Footer = () => {
 
                     <div className='footer-item-box'>
                         <h3>Open Hours</h3>
-                        <p>Monday
+                        <p className='d'>
+                            Monday
                             9:00 - 24:00 <br />
                             Tuesday
                             9:00 - 24:00 <br />
