@@ -2,8 +2,7 @@ import './menu.css'
 
 export const Menu = () => {
   return (
-    <div className='Menu'>
-
+    <>
       <section className="menu-intro-box">
         <h1>Our Menu</h1>
         <label></label>
@@ -142,6 +141,11 @@ export const Menu = () => {
           </div>
         </div>
       </section>
-    </div>
+
+      <section className='fav-dish-box'>
+
+      </section>
+    </>
   )
 }
+
