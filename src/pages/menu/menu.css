@@ -110,6 +110,70 @@
     }
 }
 
+/* Fav Dish */
+
 .fav-dish-box {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0;
+}
+
+.fav-dish-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+}
+
+.fav-dish-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.fav-dish-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 0;
+}
+
+.fav-dish-items-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fav-dish-items img {
+    height: 22rem;
+}
+
+.fav-dish-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.fav-dish-text label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+}
+
+.fav-dish-text p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fav-dish-text a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.fav-dish-text div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

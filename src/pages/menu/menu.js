@@ -143,7 +143,53 @@ export const Menu = () => {
       </section>
 
       <section className='fav-dish-box'>
-
+        <h2>Your Favorites</h2>
+        <div className='fav-dish-center'>
+          <div className='fav-dish-items'>
+            <div className='fav-dish-text'>
+              <h3>Chocolatte Mausse</h3>
+              <div>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+              <a href='#!'>Order Now</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1548704087-b11dab0fbec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaCUyMGZvb2R8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"></img>
+          </div>
+          <div className='fav-dish-items fav-dish-items-rev'>
+            <div className='fav-dish-text'>
+              <h3>Chocolatte Mausse</h3>
+              <div>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+              <a href='#!'>Order Now</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1548704087-b11dab0fbec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaCUyMGZvb2R8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"></img>
+          </div>
+          <div className='fav-dish-items'>
+            <div className='fav-dish-text'>
+              <h3>Chocolatte Mausse</h3>
+              <div>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+              <a href='#!'>Order Now</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1548704087-b11dab0fbec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaCUyMGZvb2R8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"></img>
+          </div>
+          <div className='fav-dish-items fav-dish-items-rev'>
+            <div className='fav-dish-text'>
+              <h3>Chocolatte Mausse</h3>
+              <div>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+              <a href='#!'>Order Now</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1548704087-b11dab0fbec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaCUyMGZvb2R8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"></img>
+          </div>
+        </div>
       </section>
     </>
   )
