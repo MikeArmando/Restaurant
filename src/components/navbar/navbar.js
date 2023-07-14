@@ -41,7 +41,7 @@ window.addEventListener('scroll', function () {
 
     // Change the color to white if the scroll position exceeds the threshold
     if (scrollPosition > scrollThreshold) {
-        nav.style.background = 'rgb(30, 30, 30)';
+        nav.style.background = 'rgb(43, 43, 43)';
     } else {
         // Reset the color if the scroll position is less than the threshold
         nav.style.background = '';

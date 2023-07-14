@@ -174,7 +174,7 @@ export const Home = () => {
           </div>
         </div>
         <div className='view-menu-box'>
-          <Link to='/menu'>View Menu</Link>
+          <Link to='/menu' onClick={scrollToTop}>View Menu</Link>
         </div>
       </section>
 
@@ -253,4 +253,12 @@ export const Home = () => {
 
     </div>
   )
+}
+
+// scrolls to the top of the page when click a navbar link
+const scrollToTop = () => {
+  window.scrollTo({
+      top: 0,
+      behavior: 'instant',
+  });
 }

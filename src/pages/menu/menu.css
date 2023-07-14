@@ -14,7 +14,7 @@
 }
 
 .menu-intro-box h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 
@@ -138,38 +138,52 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    padding: 5rem 0;
-}
-
-.fav-dish-items-rev {
-    display: flex;
-    flex-direction: row-reverse;
+    padding: 2rem 0;
 }
 
 .fav-dish-items img {
-    height: 22rem;
+    height: 20rem;
 }
 
 .fav-dish-text h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
     font-size: 2rem;
     margin: 1rem 0;
 }
 
-.fav-dish-text label {
+.fav-dish-text div {
     font-family: 'Montserrat', sans-serif;
-    font-size: .9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.fav-dish-text p {
+.fav-dish-text div p {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+
+.ingr {
     font-family: 'Montserrat', sans-serif;
+    margin: 1.5rem 0;
 }
 
 .fav-dish-text a {
-    color: black;
+    cursor: pointer;
+    padding: .7rem 2.5rem;
+    border: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: #948045;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    border: 1px solid #948045;
+    transition: all .3s;
+}
+
+.fav-dish-text a:hover {
+    background-color: #caae59;
+    color: white;
 }
 
 .fav-dish-text div {
