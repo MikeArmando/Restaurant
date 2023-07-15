@@ -10,7 +10,7 @@ export const Navbar = () => {
                     <li><Link to='/Restaurant' onClick={scrollToTop}>Home</Link></li>
                     <li><Link to='/menu' onClick={scrollToTop}>Menu</Link></li>
                     <li><Link to='' onClick={scrollToTop}>About</Link></li>
-                    <li><Link to='' onClick={scrollToTop}>Contact</Link></li>
+                    <li><Link to='/contact' onClick={scrollToTop}>Contact</Link></li>
                     <li><Link to='' className='reserv' onClick={scrollToTop}>Reservations</Link></li>
                 </ul>
                 <a href="" class="toggle-button">

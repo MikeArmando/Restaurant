@@ -343,11 +343,7 @@
 }
 
 
-
-
-
-
-
+/* Reviews */
 
 .reviews-box {
     display: flex;
@@ -395,15 +391,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Reservation */
 
 .reserv-box {
@@ -445,17 +432,17 @@
 
 .reserv-contents input::placeholder {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(242, 242, 242);
+    color: rgb(229, 229, 229);
 }
 
 .reserv-contents input, .reserv-contents select {
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     background: none;
-    color: rgb(242, 242, 242);
-    border: 2px solid #caae59;
+    color: rgb(229, 229, 229);
+    border: 1px solid #caae59;
     margin: 1rem 1rem;
-    padding: 1rem 1.5rem;
+    padding: .8rem 1rem;
 }
 
 .reserv-contents select option {
@@ -479,6 +466,7 @@
     border: 1px solid #bb944c;
     color: white;
 }
+
 
 @media (max-width: 600px) {
 

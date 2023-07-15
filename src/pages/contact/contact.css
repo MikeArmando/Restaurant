@@ -1,0 +1,81 @@
+.contact-intro-box {
+    background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: inset 0 0 0 1000px rgba(3, 4, 7, 0.604);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+.contact-intro-box h1 {
+    font-size: 1.9rem;
+    font-weight: 100;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 2rem;
+    gap: 35rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us div input {
+    width: 20rem;
+    font-size: 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 1rem .5rem;
+    margin: .5rem 0;   
+}
+
+.contact-us div a {
+    background-color: #caae59;
+    max-width: 10rem;
+    color: white;
+    text-decoration: none;
+    margin: 2rem 0;
+    text-align: center;
+    padding: .8rem;
+    border: 1px solid;
+    transition: all .3s;
+}
+.contact-us div a:hover {
+    background-color: white;
+    color: #caae59;
+}
