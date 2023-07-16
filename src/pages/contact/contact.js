@@ -13,9 +13,9 @@ export const Contact = () => {
                     <div className='contact-info'>
                         <h2>Contact Info</h2>
                         <div>
-                            <p>Creek Lano Avila Beach, CA</p>
-                            <p>+53 345 7953 32453</p>
-                            <p>random@gmail.com</p>
+                            <p>Location: Creek Lano Avila Beach, CA</p>
+                            <p>Phone: +53 345 7953 32453</p>
+                            <p>Email: random@gmail.com</p>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ export const Contact = () => {
                             <input type='text' placeholder='Your Name'></input>
                             <input type='text' placeholder='Your email'></input>
                             <input type='text' placeholder='Subject'></input>
-                            <input type='text' placeholder='Message'></input>
+                            <textarea rows="4" placeholder='Massage'></textarea>
                             <a href='#!'>Send Message</a>
                         </div>
                     </div>

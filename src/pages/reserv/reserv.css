@@ -1,5 +1,5 @@
-.contact-intro-box {
-    background-image: url(https://images.unsplash.com/photo-1529003600303-bd51f39627fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
+.reserv-intro-box {
+    background-image: url(https://images.unsplash.com/photo-1599458448510-59aecaea4752?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,51 +13,55 @@
     padding: 0 1rem;
 }
 
-.contact-intro-box h1 {
+.reserv-intro-box h1 {
     font-size: 1.9rem;
     font-weight: 100;
 }
 
-.contact-box {
+.reserv-page-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-center {
+.reserv-page-center {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 8rem 2rem;
-    gap: 35rem;
+    gap: 5rem;
 }
 
-.contact-info {
+.reserv-page-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserv-page-info img {
+    height: 30rem;
+}
+
+.reserv-page-info div {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.contact-info div {
+.reserv-page-input {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.contact-us {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.reserv-page-input div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
-.contact-us div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-us div input, textarea {
-    width: 20rem;
+.reserv-page-input div input, textarea {
+    width: 18rem;
     font-size: 1rem;
     border: 1px solid rgb(214, 214, 214);
     padding: 1rem .5rem;
@@ -65,7 +69,13 @@
     resize: none;
 }
 
-.contact-us div a {
+.reserv-page-input div select {
+    font-size: 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 1rem .5rem;
+}
+
+.reserv-page-input div a {
     background-color: #caae59;
     max-width: 10rem;
     color: white;
@@ -77,28 +87,37 @@
     transition: all .3s;
 }
 
-.contact-us div a:hover {
+.reserv-page-input div a:hover {
     background-color: white;
     color: #caae59;
 }
 
-@media (max-width: 1400px) {
-    .contact-center {
+@media (max-width: 1450px) {
+    .reserv-page-center {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
         margin: 8rem 2rem;
-        gap: 18rem;
+    }
+
+    .reserv-page-info img {
+        height: 27rem;
     }
 }
 
-@media (max-width: 900px) {
-    .contact-center {
+@media (max-width: 800px) {
+    .reserv-page-center {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin: 8rem 2rem;
-        gap: 10rem;
+    }
+
+    .reserv-page-input div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .reserv-page-info img {
+        height: 15rem;
     }
 }
