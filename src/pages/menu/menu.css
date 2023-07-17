@@ -76,16 +76,6 @@
     transition: all .3s;
 }
 
-.page-menu-text-box a {
-    margin-top: 1rem;
-    text-decoration: none;
-    color: #caae59;
-}
-
-.page-menu-text-box a:hover {
-    text-decoration: underline;
-}
-
 .page-view-menu-box {
     display: flex;
     justify-content: center;
@@ -174,23 +164,6 @@
 .ingr {
     font-family: 'Montserrat', sans-serif;
     margin: 1.5rem 0;
-}
-
-.fav-dish-text a {
-    cursor: pointer;
-    padding: .7rem 2.5rem;
-    border: none;
-    text-transform: uppercase;
-    background-color: white;
-    color: #948045;
-    text-decoration: none;
-    border: 1px solid #948045;
-    transition: all .3s;
-}
-
-.fav-dish-text a:hover {
-    background-color: #caae59;
-    color: white;
 }
 
 .fav-dish-text div {

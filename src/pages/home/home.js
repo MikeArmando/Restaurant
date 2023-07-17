@@ -21,7 +21,7 @@ export const Home = () => {
             <h2>An Extraordinery <label> Experience</label></h2>
             <p>We pride ourselves on offering the freshest and finest selection of seafood available. Every ingredient is carefully sourced from trusted suppliers who share our commitment to quality and sustainability. From succulent shrimp and tender scallops to delectable lobster and delicate fish, each dish is a testament to our dedication to serving the very best.</p>
             <br />
-            <a href='#!'>Learn More</a>
+            <Link to='/about' onClick={scrollToTop}>Learn More</Link>
           </div>
         </div>
       </section>
@@ -35,7 +35,6 @@ export const Home = () => {
               <label className='special-cost'>$20</label>
             </div>
             <p className='special-ingre'>Pork / Tenderloin / Green / Pepper</p>
-            <a href='#!'>Order Now</a>
           </div>
           <div className='special-img-box'>
             <img src="https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlzaCUyMGRpc2h8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"></img>
@@ -52,7 +51,6 @@ export const Home = () => {
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -60,7 +58,6 @@ export const Home = () => {
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -68,7 +65,6 @@ export const Home = () => {
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -76,7 +72,6 @@ export const Home = () => {
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -84,7 +79,6 @@ export const Home = () => {
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
           </div>
@@ -94,7 +88,6 @@ export const Home = () => {
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -102,7 +95,6 @@ export const Home = () => {
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -110,7 +102,6 @@ export const Home = () => {
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -118,7 +109,6 @@ export const Home = () => {
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -126,7 +116,6 @@ export const Home = () => {
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
           </div>
@@ -136,7 +125,6 @@ export const Home = () => {
                 <h3>Lava Cake</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -144,7 +132,6 @@ export const Home = () => {
                 <h3>Orange Tart</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -152,7 +139,6 @@ export const Home = () => {
                 <h3>Cheese Cake</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -160,7 +146,6 @@ export const Home = () => {
                 <h3>Chocolatte Mausse</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='menu-text-box'>
@@ -168,7 +153,6 @@ export const Home = () => {
                 <h3>Ice Cream</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
           </div>

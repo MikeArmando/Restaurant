@@ -17,7 +17,20 @@ export const Menu = () => {
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Pork Tenderloin in Green Pepper</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Pork Tenderloin in Green Pepper</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -25,7 +38,6 @@ export const Menu = () => {
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -33,7 +45,6 @@ export const Menu = () => {
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -41,7 +52,6 @@ export const Menu = () => {
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -49,7 +59,6 @@ export const Menu = () => {
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
           </div>
@@ -60,7 +69,6 @@ export const Menu = () => {
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -68,7 +76,20 @@ export const Menu = () => {
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Shrimp with Garlic</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Shrimp with Garlic</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -76,7 +97,6 @@ export const Menu = () => {
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -84,7 +104,6 @@ export const Menu = () => {
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -92,7 +111,6 @@ export const Menu = () => {
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
           </div>
@@ -103,7 +121,6 @@ export const Menu = () => {
                 <h3>Lava Cake</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -111,23 +128,6 @@ export const Menu = () => {
                 <h3>Orange Tart</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
-              </div>
-            </div>
-            <div className='page-menu-text-box'>
-              <div>
-                <h3>Cheese Cake</h3>
-                <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
-                <a href='#!'>Order Now</a>
-              </div>
-            </div>
-            <div className='page-menu-text-box'>
-              <div>
-                <h3>Chocolatte Mausse</h3>
-                <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
-                <a href='#!'>Order Now</a>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -135,7 +135,34 @@ export const Menu = () => {
                 <h3>Ice Cream</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
                 <p>$29</p>
-                <a href='#!'>Order Now</a>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Ice Cream</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Cheese Cake</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Chocolatte Mausse</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
+              </div>
+            </div>
+            <div className='page-menu-text-box'>
+              <div>
+                <h3>Ice Cream</h3>
+                <label>Pork / Tenderloin / Green / Pepper</label>
+                <p>$29</p>
               </div>
             </div>
           </div>
@@ -152,7 +179,6 @@ export const Menu = () => {
                 <p>$29</p>
               </div>
               <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
-              <a href='#!'>Order Now</a>
             </div>
             <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
           </div>
@@ -163,7 +189,6 @@ export const Menu = () => {
                 <p>$29</p>
               </div>
               <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
-              <a href='#!'>Order Now</a>
             </div>
             <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
           </div>

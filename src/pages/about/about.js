@@ -1,7 +1,8 @@
 import './about.css'
-import cake from '../../assets/img/cake.png'
-import business from '../../assets/img/Untitled design (1).png'
-import wedding from '../../assets/img/Untitled design (2).png'
+import breakfast from '../../assets/img/cake.png'
+import lunch from '../../assets/img/Untitled design (1).png'
+import dinner from '../../assets/img/Untitled design (2).png'
+
 export const About = () => {
     return (
         <>
@@ -20,21 +21,21 @@ export const About = () => {
             </section>
 
             <section className="cater-box">
-                <h1>Catering Services</h1>
+                <h1>Our Services</h1>
                 <div className='cater-contents'>
                     <div>
-                        <img src={cake}></img>
-                        <h2>Birthday Party</h2>
+                        <img src={breakfast}></img>
+                        <h2>Breakfast</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>
                     <div>
-                        <img src={business}></img>
-                        <h2>Business Meetings</h2>
+                        <img src={lunch}></img>
+                        <h2>Lunch</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>
                     <div>
-                        <img src={wedding}></img>
-                        <h2>Wedding Party</h2>
+                        <img src={dinner}></img>
+                        <h2>Dinner</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>
                 </div>
