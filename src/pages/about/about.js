@@ -1,5 +1,7 @@
 import './about.css'
-
+import cake from '../../assets/img/cake.png'
+import business from '../../assets/img/Untitled design (1).png'
+import wedding from '../../assets/img/Untitled design (2).png'
 export const About = () => {
     return (
         <>
@@ -21,14 +23,17 @@ export const About = () => {
                 <h1>Catering Services</h1>
                 <div className='cater-contents'>
                     <div>
+                        <img src={cake}></img>
                         <h2>Birthday Party</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>
                     <div>
+                        <img src={business}></img>
                         <h2>Business Meetings</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>
                     <div>
+                        <img src={wedding}></img>
                         <h2>Wedding Party</h2>
                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </div>

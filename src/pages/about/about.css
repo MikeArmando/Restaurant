@@ -86,3 +86,7 @@
 .cater-contents h2 {
     font-family: 'Montserrat', sans-serif;
 }
+
+.cater-contents img {
+    height: 5.5rem;
+}
