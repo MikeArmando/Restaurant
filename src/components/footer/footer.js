@@ -13,21 +13,43 @@ export const Footer = () => {
 
                     <div className='footer-item-box'>
                         <h3>Open Hours</h3>
-                        <p className='d'>
-                            Monday
-                            9:00 - 24:00 <br />
-                            Tuesday
-                            9:00 - 24:00 <br />
-                            Wednesday
-                            9:00 - 24:00 <br />
-                            Thursday
-                            9:00 - 24:00 <br />
-                            Friday
-                            9:00 - 02:00 <br />
-                            Saturday
-                            9:00 - 02:00 <br />
-                            Sunday
-                            Closed</p>
+                        <div className='footer-hours-box'>
+                            <div>
+                                <p>Monday</p>
+                                <p>9:00 - 24:00</p>
+                            </div>
+                            <div>
+                                <p>Tuesday</p>
+                                <p>9:00 - 24:00</p>
+                            </div>
+                            <div>
+                                <p>Wednesday</p>
+                                <p>9:00 - 24:00</p>
+                            </div>
+                            <div>
+                                <p>Thursday</p>
+                                <p>9:00 - 24:00</p>
+                            </div>
+                            <div>
+                                <p>Friday</p>
+                                <p>9:00 - 02:00</p>
+                            </div>
+                            <div>
+                                <p>Saturday</p>
+                                <p>9:00 - 02:00</p>
+                            </div>
+                            <div>
+                                <p>Sunday</p>
+                                <p>Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='footer-item-box'>
+                        <h3>Cantact</h3>
+                        <p>Location: Creek Lano Avila Beach, CA</p>
+                        <p>Phone: +53 345 7953 32453</p>
+                        <p>Email: random@gmail.com</p>
                     </div>
 
                     <div className='footer-item-box'>
@@ -40,11 +62,6 @@ export const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='footer-item-box'>
-                        <h3>Cantact</h3>
-                        <p>Far far away, behind the word mountains, far from the countries
-                            Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
                 </div>
             </footer>
         </div>

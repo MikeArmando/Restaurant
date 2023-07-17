@@ -4,7 +4,7 @@ footer {
     align-items: center;
     background-color: rgb(31, 31, 31);
     color: rgb(232, 232, 232);
-    height: 50vh;
+    height: 55vh;
 }
 
 .footer-box {
@@ -15,11 +15,24 @@ footer {
 }
 
 .footer-item-box {
-    max-width: 20rem;
+    max-width: 15rem;
     min-height: 18rem;
 }
 
+.footer-hours-box div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-hours-box p {
+    margin: .4rem .5rem;
+}
+
 .footer-item-box p {
+    color: rgb(203, 203, 203);
     font-size: .8rem;
 }
 
@@ -29,7 +42,7 @@ footer {
 }
 
 .newsletter-btn-box input {
-    width: 40%;
+    width: 55%;
     padding: .5rem 1rem;
     margin: .5rem 0rem;
 }
@@ -39,7 +52,7 @@ footer {
     color: rgb(232, 232, 232);
     border: 2px solid #ad9651;
     cursor: pointer;
-    width: 51%;
+    width: 70%;
     padding: .6rem 1rem;
     margin: .5rem 0rem;
     transition: all .3s;
