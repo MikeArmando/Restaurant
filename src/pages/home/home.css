@@ -17,6 +17,23 @@
     text-transform: uppercase;
     font-size: 3.4rem;
     font-weight: 100;
+    animation: fade .8s;
+}
+
+.intro-box label {
+    animation: fade .8s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* About */
@@ -404,7 +421,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 6rem 0;
+    padding: 5rem 0;
 }
 
 .reserv-box h2 {
@@ -433,15 +450,15 @@
 
 .reserv-contents input::placeholder {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(229, 229, 229);
+    color: rgb(214, 214, 214);
 }
 
 .reserv-contents input, .reserv-contents select {
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     background: none;
-    color: rgb(229, 229, 229);
-    border: 1px solid #caae59;
+    color: rgb(214, 214, 214);
+    border: 1px solid;
     margin: 1rem 1rem;
     padding: .8rem 1rem;
 }

@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <ul>
                     <li><Link to='/Restaurant' onClick={scrollToTop}>Home</Link></li>
                     <li><Link to='/menu' onClick={scrollToTop}>Menu</Link></li>
-                    <li><Link to='' onClick={scrollToTop}>About</Link></li>
+                    <li><Link to='/about' onClick={scrollToTop}>About</Link></li>
                     <li><Link to='/contact' onClick={scrollToTop}>Contact</Link></li>
                     <li><Link to='/reserv' className='reserv' onClick={scrollToTop}>Reservations</Link></li>
                 </ul>

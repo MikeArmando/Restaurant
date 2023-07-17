@@ -11,8 +11,8 @@ export const Menu = () => {
       <section className='page-menu-box'>
         <div className='page-menu-center'>
           <div className='page-menu-sections'>
+            <h2>Starter</h2>
             <div className='page-menu-text-box'>
-              <h2>Starter</h2>
               <div>
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
@@ -145,28 +145,6 @@ export const Menu = () => {
       <section className='fav-dish-box'>
         <h2>Our Signature Dishes</h2>
         <div className='fav-dish-center'>
-          <div className='fav-dish-items'>
-            <div className='fav-dish-text'>
-              <div>
-                <h3>Shrimp with Garlic</h3>
-                <p>$29</p>
-              </div>
-              <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
-              <a href='#!'>Order Now</a>
-            </div>
-            <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
-          </div>
-          <div className='fav-dish-items fav-dish-items-rev'>
-            <div className='fav-dish-text'>
-              <div>
-                <h3>Shrimp with Garlic</h3>
-                <p>$29</p>
-              </div>
-              <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
-              <a href='#!'>Order Now</a>
-            </div>
-            <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
-          </div>
           <div className='fav-dish-items'>
             <div className='fav-dish-text'>
               <div>

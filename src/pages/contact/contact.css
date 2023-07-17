@@ -1,6 +1,6 @@
 .contact-intro-box {
     background-image: url(https://images.unsplash.com/photo-1529003600303-bd51f39627fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
-    height: 80vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -16,6 +16,7 @@
 .contact-intro-box h1 {
     font-size: 1.9rem;
     font-weight: 100;
+    animation: fade .8s;
 }
 
 .contact-box {
