@@ -1,7 +1,7 @@
 import './about.css'
-import breakfast from '../../assets/img/cake.png'
-import lunch from '../../assets/img/Untitled design (1).png'
-import dinner from '../../assets/img/Untitled design (2).png'
+import breakfast from '../../assets/img/breakfast.png'
+import lunch from '../../assets/img/lunch.png'
+import dinner from '../../assets/img/dinner.png'
 
 export const About = () => {
     return (

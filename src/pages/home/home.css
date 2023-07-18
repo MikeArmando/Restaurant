@@ -13,7 +13,11 @@
     padding: 0 1rem;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .intro-box h1 {
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     text-transform: uppercase;
     font-size: 3.4rem;
     font-weight: 100;
@@ -52,22 +56,27 @@
     padding: 6rem 0;
 }
 
+.about-text {
+    max-width: 35rem;
+}
+
 .about-img-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
 .about-box img {
-    height: 34rem;
+    height: 29rem;
 }
 
 .about-text label {
-    color: #b59d55;
+    color: #d7a305;
 }
 
 .about-text h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     font-size: 2.5rem;
     font-weight: 200;
     margin: 0;
@@ -83,15 +92,15 @@
     font-size: 1rem;
     padding: .7rem 1.7rem;
     background-color: white;
-    border: 1px solid #948045;
+    border: 1px solid #d7a305;
     text-decoration: none;
-    color: #948045;
+    color: #d7a305;
     transition: all .3s;
 }
 
 .about-text a:hover {
     color: white;
-    background-color: #caae59;
+    background-color: #d7a305;
 }
 
 @media (max-width: 1400px) {
@@ -113,30 +122,33 @@
     }
 
     .about-img-box {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
 }
 
 @media (max-width: 900px) {
-
     .about-box .about-box-center {
-        padding: 6rem 3rem;
+        padding: 6rem 1rem;
     }
 
     .about-text {
         text-align: center;
     }
 
-    .about-img-box {
-        grid-template-columns: 1fr;
+    .about-box img {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .about-box img {
+        height: 18rem;
     }
 }
 
 @media (max-width: 500px) {
     .about-box img {
-        height: 25rem;
+        height: 14rem;
     }
 }
 
@@ -167,8 +179,14 @@
 }
 
 .special-text-box h2 {
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     font-size: 2.5rem;
     font-weight: 200;
+}
+
+.special-text-box h2 label {
+    color: #d7a305;
 }
 
 .special-name {
@@ -238,7 +256,8 @@
 }
 
 .menu-box h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,14 +322,14 @@
     border: none;
     text-transform: uppercase;
     background-color: white;
-    color: #948045;
+    color: #d7a305;
     text-decoration: none;
-    border: 1px solid #948045;
+    border: 1px solid #d7a305;
     transition: all .3s;
 }
 
 .view-menu-box a:hover {
-    background-color: #caae59;
+    background-color: #d7a305;
     color: white;
 }
 
@@ -345,8 +364,9 @@
 }
 
 .reviews-box h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
+    font-size: 2.3rem;
 }
 
 .reviews-row {
@@ -408,6 +428,11 @@
     font-weight: 200;
 }
 
+.reserv-box p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
 .reserv-center {
     display: flex;
     flex-direction: column;
@@ -415,47 +440,21 @@
     align-items: center;
 }
 
-.reserv-contents {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.reserv-contents input::placeholder {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(214, 214, 214);
-}
-
-.reserv-contents input, .reserv-contents select {
-    font-family: 'Montserrat', sans-serif;
-    font-size: .8rem;
-    background: none;
-    color: rgb(214, 214, 214);
-    border: 1px solid;
-    margin: 1rem 1rem;
-    padding: .8rem 1rem;
-}
-
-.reserv-contents select option {
-    color: black;
-}
-
 .reserv-center a {
-    font-size: .8rem;
-    background-color: #ad9651;
+    font-size: 1rem;
+    background-color: #b18e25;
     text-align: center;
     text-decoration: none;
-    border: 1px solid #ad9651;
+    border: 1px solid #b18e25;
     color: rgb(242, 242, 242);
-    padding: .8rem 2rem;
+    padding: .7rem 1.6rem;
     margin: 1rem 0rem;
     transition: all .3s;
 }
 
 .reserv-center a:hover {
     background-color: transparent;
-    border: 1px solid #bb944c;
+    border: 1px solid #b18e25;
     color: white;
 }
 

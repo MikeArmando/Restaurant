@@ -13,6 +13,8 @@
 }
 
 .about-intro-box h1 {
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     font-size: 1.9rem;
     font-weight: 100;
     animation: fade .8s;
@@ -88,5 +90,5 @@
 }
 
 .cater-contents img {
-    height: 5.5rem;
+    height: 6rem;
 }

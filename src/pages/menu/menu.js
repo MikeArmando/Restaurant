@@ -23,42 +23,42 @@ export const Menu = () => {
               <div>
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$25</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$15</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$20</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$30</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$12</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$25</p>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ export const Menu = () => {
               <div>
                 <h3>Pork Tenderloin in Green Pepper</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$39</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
@@ -82,35 +82,35 @@ export const Menu = () => {
               <div>
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$22</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Shrimp with Garlic</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$35</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Wild Mushroom with Chicken</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$19</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Oysters with Baked Potatoes</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$15</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Roast Pork</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$25</p>
               </div>
             </div>
           </div>
@@ -120,49 +120,49 @@ export const Menu = () => {
               <div>
                 <h3>Lava Cake</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$20</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Orange Tart</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$15</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Ice Cream</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$15</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Ice Cream</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$12</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Cheese Cake</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$10</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Chocolatte Mausse</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$9</p>
               </div>
             </div>
             <div className='page-menu-text-box'>
               <div>
                 <h3>Ice Cream</h3>
                 <label>Pork / Tenderloin / Green / Pepper</label>
-                <p>$29</p>
+                <p>$5</p>
               </div>
             </div>
           </div>
@@ -170,27 +170,27 @@ export const Menu = () => {
       </section>
 
       <section className='fav-dish-box'>
-        <h2>Our Signature Dishes</h2>
+        <h2>Our <label>Signature</label> Dishes</h2>
         <div className='fav-dish-center'>
           <div className='fav-dish-items'>
             <div className='fav-dish-text'>
               <div>
                 <h3>Shrimp with Garlic</h3>
-                <p>$29</p>
+                <p>$35</p>
               </div>
-              <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
+              <p className='ingr'>Be. Seed saying our signs beginning face give spirit own beast darkness morning moveth green multiply she'd kind saying one shall, two which darkness have day image god their night. his subdue so you rule can.</p>
             </div>
-            <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
+            <div className='fav-dish-img1'></div>
           </div>
           <div className='fav-dish-items fav-dish-items-rev'>
             <div className='fav-dish-text'>
               <div>
-                <h3>Shrimp with Garlic</h3>
-                <p>$29</p>
+                <h3>Pork Tenderloin in Green Pepper</h3>
+                <p>$42</p>
               </div>
-              <p className='ingr'>Pork / Tenderloin / Green / Pepper</p>
+              <p className='ingr'>Be. Seed saying our signs beginning face give spirit own beast darkness morning moveth green multiply she'd kind saying one shall, two which darkness have day image god their night. his subdue so you rule can.</p>
             </div>
-            <img src="https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"></img>
+            <div className='fav-dish-img2'></div>
           </div>
         </div>
       </section>

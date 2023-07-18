@@ -14,6 +14,8 @@
 }
 
 .menu-intro-box h1 {
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     font-size: 2rem;
     font-weight: 100;
     animation: fade .8s;
@@ -115,6 +117,11 @@
 .fav-dish-box h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.fav-dish-box label {
+    color: #d7a305;
 }
 
 .fav-dish-center {
@@ -122,24 +129,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+    padding: 4rem 2rem;
+    gap: 13rem;
 }
 
 .fav-dish-items {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 5rem;
-    margin-bottom: 5rem;
-    padding: 2rem 0;
 }
 
 .fav-dish-items-rev {
     flex-direction: row-reverse;
 }
 
-.fav-dish-items img {
-    height: 20rem;
+.fav-dish-img1 {
+    background-image: url(https://images.unsplash.com/photo-1625938393850-10f1f23de467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 27rem;
+    width: 35rem;
+}
+
+.fav-dish-img2 {
+    background-image: url(https://images.unsplash.com/photo-1519233991914-26a44330ccd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaCUyMGRpc2h8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 27rem;
+    width: 35rem;
+}
+
+.fav-dish-text {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fav-dish-text h3 {
