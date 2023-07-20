@@ -16,6 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .intro-box h1 {
+    text-align: center;
     font-family: 'Lora', serif;
     letter-spacing: .2rem;
     text-transform: uppercase;
@@ -465,6 +466,25 @@
 }
 
 .gall-items:hover {
-    box-shadow: inset 0 0  1000px rgba(3, 4, 7, 0.604);
+    box-shadow: inset 0 0 1000px rgba(3, 4, 7, 0.604);
     transform: scale(1.03);
+}
+
+@media (max-width: 1200px) {
+    .gall-center {
+        grid-template-columns: 1fr;
+        gap: 10rem 2rem;
+    }
+
+    .gall-items {
+        height: 28rem;
+        width: 25rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .gall-items {
+        height: 23rem;
+        width: 20rem;
+    }
 }

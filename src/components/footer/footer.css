@@ -71,26 +71,16 @@ footer {
     .footer-box {
         flex-direction: column;
         margin: 4rem 0;
-        text-align: center;
     }
 
     .footer-item-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .newsletter-btn-box {
-        align-items: center;
         flex-direction: column;
-    }
-
-    .newsletter-btn-box input {
-        margin: .5rem 1rem;
-    }
-
-    .newsletter-btn-box button {
-        margin: .5rem 1rem;
     }
 }
