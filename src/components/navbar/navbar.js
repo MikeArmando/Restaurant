@@ -1,23 +1,31 @@
 import './navbar.css'
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
     return (
         <div className='Navbar'>
             <nav>
                 <h1><Link to="/Restaurant" onClick={scrollToTop}>Mariscos Bahia</Link></h1>
-                <ul>
+                <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
                     <li><Link to='/Restaurant' onClick={scrollToTop}>Home</Link></li>
                     <li><Link to='/menu' onClick={scrollToTop}>Menu</Link></li>
                     <li><Link to='/about' onClick={scrollToTop}>About</Link></li>
                     <li><Link to='/contact' onClick={scrollToTop}>Contact</Link></li>
                     <li><Link to='/reserv' className='reserv' onClick={scrollToTop}>Reservations</Link></li>
                 </ul>
-                <a href="" class="toggle-button">
+                <div onClick={handleMenuToggle} class="toggle-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </a>
+                </div>
             </nav>
         </div>
     )

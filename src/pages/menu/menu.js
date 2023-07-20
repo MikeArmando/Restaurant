@@ -7,7 +7,7 @@ export const Menu = () => {
         <h1>Our Menu</h1>
         <label></label>
       </section>
-
+      
       <section className='page-menu-box'>
         <div className='page-menu-center'>
           <div className='page-menu-sections'>
