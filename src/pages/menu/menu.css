@@ -118,6 +118,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2rem;
     font-weight: 100;
+    padding: 0 1rem;
 }
 
 .fav-dish-box label {
@@ -195,4 +196,47 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 1150px) {
+    .fav-dish-items {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .fav-dish-text {
+        max-width: 35rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .fav-dish-box h2 {
+        text-align: center;
+    }
+
+    .fav-dish-img1 {
+        height: 20rem;
+        width: 28rem;
+        margin: auto;
+    }
+
+    .fav-dish-img2 {
+        height: 17rem;
+        width: 22rem;
+        margin: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .fav-dish-img1 {
+        height: 12rem;
+        width: 18rem;
+        margin: auto;
+    }
+
+    .fav-dish-img2 {
+        height: 12rem;
+        width: 18rem;
+        margin: auto;
+    }
 }
