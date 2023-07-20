@@ -257,7 +257,7 @@
 
 .menu-box h2 {
     font-family: 'Lora', serif;
-    letter-spacing: .2rem;    
+    letter-spacing: .2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,55 +353,6 @@
 }
 
 
-/* Reviews */
-
-.reviews-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 7rem 0;
-}
-
-.reviews-box h2 {
-    font-family: 'Lora', serif;
-    letter-spacing: .2rem;
-    font-size: 2.3rem;
-}
-
-.reviews-row {
-    display: grid;
-    gap: 1rem;
-    max-width: 80rem;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.reviews-items {
-    border: 2px solid rgb(206, 206, 206);
-    padding: 1rem;
-}
-
-.reviews-items img {
-    height: 2rem;
-}
-
-.rev-span {
-    grid-row: span 2;
-}
-
-.rev-name {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-@media (max-width: 1400px) {
-    .reviews-row {
-        grid-template-columns: 1fr;
-        margin: 0 1rem;
-    }
-}
-
-
 /* Reservation */
 
 .reserv-box {
@@ -463,4 +414,57 @@
     .reserv-contents {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* Gallary */
+
+.gall-box {
+    margin: auto;
+    max-width: 65rem;
+}
+
+.gall-center {
+    display: grid;
+    padding: 10rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem 2rem;
+}
+
+.gall-items {
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.gall-item1 {
+    background-image: url(https://images.unsplash.com/photo-1598532213919-078e54dd1f40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzaHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 32rem;
+    width: 30rem;
+}
+
+.gall-item2 {
+    background-image: url(https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGlzaHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 40rem;
+    width: 30rem;
+}
+
+.gall-item3 {
+    background-image: url(https://images.unsplash.com/photo-1564671165093-20688ff1fffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGlzaHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 45rem;
+    width: 30rem;
+}
+
+.gall-item4 {
+    background-image: url(https://images.unsplash.com/photo-1617474019977-0e105d1b430e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlzaHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    height: 35rem;
+    width: 32rem;
+}
+
+.gall-items:hover {
+    box-shadow: inset 0 0  1000px rgba(3, 4, 7, 0.604);
+    transform: scale(1.03);
 }

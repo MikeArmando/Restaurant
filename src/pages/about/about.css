@@ -92,3 +92,53 @@
 .cater-contents img {
     height: 6rem;
 }
+
+
+/* Reviews */
+
+.reviews-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.reviews-box h2 {
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
+    font-size: 2.3rem;
+}
+
+.reviews-row {
+    display: grid;
+    gap: 1rem;
+    max-width: 80rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviews-items {
+    border: 2px solid rgb(206, 206, 206);
+    padding: 1rem;
+}
+
+.reviews-items img {
+    height: 2rem;
+}
+
+.rev-span {
+    grid-row: span 2;
+}
+
+.rev-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+    .reviews-row {
+        grid-template-columns: 1fr;
+        margin: 0 1rem;
+    }
+}
