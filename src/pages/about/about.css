@@ -43,7 +43,8 @@
 }
 
 .about-contents h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
     font-weight: 100;
     font-size: 2.7rem;
 }
@@ -52,6 +53,25 @@
     color: rgb(39, 39, 39);
 }
 
+@media (max-width: 1100px) {
+    .about-contents {
+        flex-direction: column-reverse;
+    }
+
+    .about-contents h2 {
+        text-align: center;
+    }
+
+    .about-contents p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-contents img {
+        height: 33rem;
+    }
+}
 
 /* Catering Services */
 
@@ -64,7 +84,9 @@
 }
 
 .cater-box h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
+    letter-spacing: .2rem;
+    font-weight: 100;
     font-size: 2.5rem;
 }
 
@@ -91,6 +113,13 @@
 
 .cater-contents img {
     height: 6rem;
+}
+
+
+@media (max-width: 1100px) {
+    .cater-contents {
+        flex-direction: column;
+    }
 }
 
 
