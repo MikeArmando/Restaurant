@@ -351,6 +351,10 @@
         gap: 1.5rem;
         margin: 0 auto;
     }
+
+    .menu-text-box {
+        padding: 1rem 4rem;
+    }
 }
 
 
