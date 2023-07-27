@@ -2,7 +2,7 @@ import './footer.css'
 
 export const Footer = () => {
     return (
-        <div className='Footer'>
+        <>
             <footer>
                 <div className='footer-box'>
                     <div className='footer-item-box'>
@@ -64,6 +64,6 @@ export const Footer = () => {
 
                 </div>
             </footer>
-        </div>
+        </>
     )
 }

@@ -10,7 +10,7 @@ import { Footer } from './components/footer/footer'
 
 const App = () => {
   return (
-    <div className="App">
+    <>
 
       <><Navbar /></>
 
@@ -23,7 +23,7 @@ const App = () => {
       </Routes>
 
       <><Footer /></>
-    </div>
+    </>
   );
 }
 

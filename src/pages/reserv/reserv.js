@@ -1,4 +1,5 @@
 import './reserv.css'
+import reserHero from '../../assets/img/reser-hero.avif'
 
 export const Reserv = () => {
     return (
@@ -11,7 +12,7 @@ export const Reserv = () => {
             <section className='reserv-page-box'>
                 <div className='reserv-page-center'>
                     <div className='reserv-page-info'>
-                        <img src='https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60'></img>
+                        <img src={reserHero}></img>
                     </div>
 
                     <div className='reserv-page-input'>
