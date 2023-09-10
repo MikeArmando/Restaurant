@@ -10,6 +10,15 @@ export const Navbar = () => {
         setMenuOpen(!isMenuOpen);
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+
+        setMenuOpen(false);
+    }
+
     return (
         <div className='Navbar'>
             <nav>
