@@ -94,6 +94,7 @@ li a:hover {
         right: 0;
         justify-content: center;
         align-items: center;
+        animation: transform .3s;
     }
 
     nav ul li {
@@ -101,5 +102,17 @@ li a:hover {
         justify-content: space-around;
         width: 100%;
         margin: 1rem 0;
+    }
+}
+
+@keyframes transform {
+    from {
+        transform: translateX(8rem);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0rem);
+        opacity: 1;
     }
 }
