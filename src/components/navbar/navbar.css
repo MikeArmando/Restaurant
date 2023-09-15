@@ -10,6 +10,9 @@ nav {
 }
 
 nav h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 1.8rem;
     margin: 1rem;
 }
 
