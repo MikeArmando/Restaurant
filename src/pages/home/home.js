@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 // images
 import signa from '../../assets/img/Signature.avif'
 import hero from '../../assets/img/Hero.avif'
+import gall1 from "../../assets/img/gall.png"
+import gall2 from "../../assets/img/gall (3).png"
+import gall3 from "../../assets/img/gall (2).png"
+import gall4 from "../../assets/img/gall (4).png"
+import gall5 from "../../assets/img/gall (5).png"
+import gall6 from "../../assets/img/gall (6).png"
 
 export const Home = () => {
   return (
@@ -164,10 +170,12 @@ export const Home = () => {
 
       <section className='gall-box'>
         <div className='gall-center'>
-          <div className='gall-items gall-item1'></div>
-          <div className='gall-items gall-item2'></div>
-          <div className='gall-items gall-item3'></div>
-          <div className='gall-items gall-item4'></div>
+          <img src={gall1} className='gall-items'></img>
+          <img src={gall2} className='gall-items'></img>
+          <img src={gall3} className='gall-items'></img>
+          <img src={gall4} className='gall-items'></img>
+          <img src={gall5} className='gall-items'></img>
+          <img src={gall6} className='gall-items'></img>
         </div>
       </section>
 

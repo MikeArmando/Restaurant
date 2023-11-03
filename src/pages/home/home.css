@@ -427,70 +427,37 @@
 /* Gallary */
 
 .gall-box {
-    margin: auto;
-    max-width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gall-center {
     display: grid;
     padding: 10rem 1rem;
-    grid-template-columns: 1fr 1fr;
-    gap: 0rem 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
 .gall-items {
-    margin: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: all .5s;
+    height: 30rem;
     cursor: pointer;
-}
-
-.gall-item1 {
-    background-image: url(/src/assets/img/gall1.avif);
-    height: 32rem;
-    width: 30rem;
-}
-
-.gall-item2 {
-    background-image: url(/src/assets/img/gall2.avif);
-    height: 40rem;
-    width: 30rem;
-}
-
-.gall-item3 {
-    background-image: url(/src/assets/img/gall3.avif);
-    height: 45rem;
-    width: 30rem;
-}
-
-.gall-item4 {
-    background-image: url(/src/assets/img/gall4.avif);
-    height: 35rem;
-    width: 32rem;
+    transition: filter 0.3s;
 }
 
 .gall-items:hover {
-    box-shadow: inset 0 0 1000px rgba(3, 4, 7, 0.604);
-    transform: scale(1.03);
+    filter: brightness(60%);
 }
 
 @media (max-width: 1200px) {
     .gall-center {
         grid-template-columns: 1fr;
-        gap: 10rem 2rem;
-    }
-
-    .gall-items {
-        height: 28rem;
-        width: 25rem;
+        gap: 2rem;
     }
 }
 
 @media (max-width: 900px) {
     .gall-items {
         height: 23rem;
-        width: 20rem;
     }
 }
